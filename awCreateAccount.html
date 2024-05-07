@@ -1,0 +1,427 @@
+<!-- <html lang="en">
+<head>
+  
+    <title>LoginScreen</title>
+ 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <style media="screen">
+      *,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #afa9e0;
+}
+.background{
+    width: 480px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+.background .shape{
+    height: 570px;
+    width: 800px;
+    position: absolute;
+    border-radius: 50%;
+}
+.shape:first-child{
+    background: linear-gradient(
+        #1845ad,
+        #1799f0
+    );
+    left: -309px;
+    top: -167px;
+}
+.shape:last-child{
+    background: linear-gradient(
+        to right,
+        #ff512f,
+        #d37f0a
+    );
+    right: -300px;
+    bottom: -100px;
+}
+form{
+    height: 650px;
+    width: 400px;
+    background-color: rgba(90, 85, 85, 0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(143, 132, 132, 0.068);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+}
+form *{
+    font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+form h3{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+::placeholder{
+    color: #e5e5e5;
+}
+button{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #25dfd5;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.social{
+  margin-top: 30px;
+  display: flex;
+}
+.social div{
+  background: red;
+  width: 150px;
+  border-radius: 3px;
+  padding: 5px 10px 10px 5px;
+  background-color: rgba(255,255,255,0.27);
+  color: #eaf0fb;
+  text-align: center;
+}
+.social div:hover{
+  background-color: rgba(255,255,255,0.47);
+}
+.social .fb{
+  margin-left: 25px;
+}
+.social i{
+  margin-right: 4px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <form>
+        <h3 style="margin-top: -30px;">AW Technologies</h3>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <main class="firstFunctionality">
+                        <input type="text" value="" placeholder="Username" id="Username">
+                        <input type="text" value="" placeholder="First Name" id="firstName">
+                        <input type="text" value="" placeholder="Last name" id="lastName">
+                        <input type="text" value="" placeholder="Email" id="Email">
+                        <input type="text" value="" placeholder="Password" id="passWord">
+                        <input type="text" value="" placeholder=" Confirm Password" id="confirmPassword">
+                        <textarea name="" id="getTextArea" cols="30" rows="5" style="width: 300px; margin-top: 10px; margin-bottom: 10px;">Write description of you need. Do you need a wesite or mobile app made </textarea> -->
+                    <!-- </main>
+                </div>
+            </div>
+        </div>
+
+        <button style="margin-top: -3px; margin-bottom:-10px;" class="btn-primary" id="login">Log In</button>
+        <div class="social">
+          <button class="fb"><a href="./AWTechnologies.html"  style="width:1000px" class="btn-primary" id="firstPage"></a></i>Create Account</button>
+        </div>
+    </form> -->
+    <!-- <script>
+        let getUserName = document.getElementById('Username').value;
+        let getFirstName = document.getElementById('firstName').value;
+        let getLastName = document.getElementById('lastName').value;
+        let getEmail = document.getElementById('Email').value;
+        let getPassWord = document.getElementById('passWord').value;
+        let getConfirmPassWord = document.getElementById('confirmPassword').value; -->
+        <!-- // let getTextArea = document.getElementById('getTextArea').value;
+
+        // getTextArea.addEventListener('click', (e)=>{
+        //     e.preventDefault();
+
+        //     clearTheTextArea();
+        // })
+        // function clearTheTextArea(getTextArea){
+        //     if(getTextArea > 1 )
+        //     getTextArea.innerHtml = '';
+
+        // }elseif(getTextArea != 1 || getTextArea === 0);{
+        //     alert('Type your description of the work you need in the description box belox.')
+        // }
+
+        // clearTheTextArea(); -->
+        
+    <!-- </script> -->
+    <!-- <script>
+        let getUserName = document.getElementById('Username').value;
+        let getFirstName = document.getElementById('firstName').value;
+
+
+            let getCreateButton = document.getElementById('firstPage');
+            getCreateButton.addEventListener('click', ()=>{
+            event.preventDefault();
+
+            console.log('Click')
+
+            // let getUserName = document.getElementById('Username').value;
+
+            // if(getUserName > 1){
+            //     console.log(getUserName);
+            // }
+    //         function collectUserData(getUserName, getFirstName){
+    //             if(getUserName && getFirstName > 1){
+    //                 localStorage.setItem('Username', getUserName);
+    //                 localStorage.setItem('getFirstName', getFirstName);
+        // let userObj = {
+        //     getUserName: getUserName,
+        //     getFirstName: getFirstName
+        // }
+
+        // console.log('This is your Username' + userObj.getUserName);
+
+    //     }
+    // }
+
+    // collectUserData();
+})
+
+// collectUserData();
+
+    </script> -->
+<!-- </body>
+</html>  -->
+
+<html lang="en">
+<head>
+  
+    <title>LoginScreen</title>
+ 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <style media="screen">
+      *,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #afa9e0;
+}
+.background{
+    width: 480px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+.background .shape{
+    height: 570px;
+    width: 800px;
+    position: absolute;
+    border-radius: 50%;
+}
+.shape:first-child{
+    background: linear-gradient(
+        #1845ad,
+        #1799f0
+    );
+    left: -309px;
+    top: -167px;
+}
+.shape:last-child{
+    background: linear-gradient(
+        to right,
+        #ff512f,
+        #d37f0a
+    );
+    right: -300px;
+    bottom: -100px;
+}
+form{
+    height: 650px;
+    width: 400px;
+    background-color: rgba(90, 85, 85, 0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(143, 132, 132, 0.068);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+}
+form *{
+    font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+form h3{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+::placeholder{
+    color: #e5e5e5;
+}
+button{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #25dfd5;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.social{
+  margin-top: 30px;
+  display: flex;
+}
+.social div{
+  background: red;
+  width: 150px;
+  border-radius: 3px;
+  padding: 5px 10px 10px 5px;
+  background-color: rgba(255,255,255,0.27);
+  color: #eaf0fb;
+  text-align: center;
+}
+.social div:hover{
+  background-color: rgba(255,255,255,0.47);
+}
+.social .fb{
+  margin-left: 25px;
+}
+.social i{
+  margin-right: 4px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <form>
+        <h3 style="margin-top: -30px;">AW Technologies</h3>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <main class="firstFunctionality">
+                        <input type="text" value="" placeholder="Username" id="Username">
+                        <input type="text" value="" placeholder="First Name" id="firstName">
+                        <input type="text" value="" placeholder="Last name" id="lastName">
+                        <input type="text" value="" placeholder="Email" id="Email">
+                        <input type="text" value="" placeholder="Password" id="passWord">
+                        <input type="text" value="" placeholder=" Confirm Password" id="confirmPassword">
+                    </main>
+                </div>
+            </div>
+        </div>
+
+        <button style="margin-top: -44px;" id="login">Log In</button>
+        <div class="social">
+          <button class="fb"><a href="app.js" id="firstPage"></a></i>Create Account</button>
+        </div>
+    </form>
+    <!-- <script>
+        let getUserName = document.getElementById('Username').value;
+        let getFirstName = document.getElementById('firstName').value;
+
+
+            let getCreateButton = document.getElementById('firstPage');
+            getCreateButton.addEventListener('click', ()=>{
+            event.preventDefault();
+
+            console.log('Click')
+
+            // let getUserName = document.getElementById('Username').value;
+
+            // if(getUserName > 1){
+            //     console.log(getUserName);
+            // }
+    //         function collectUserData(getUserName, getFirstName){
+    //             if(getUserName && getFirstName > 1){
+    //                 localStorage.setItem('Username', getUserName);
+    //                 localStorage.setItem('getFirstName', getFirstName);
+        // let userObj = {
+        //     getUserName: getUserName,
+        //     getFirstName: getFirstName
+        // }
+
+        // console.log('This is your Username' + userObj.getUserName);
+
+    //     }
+    // }
+
+    // collectUserData();
+})
+
+// collectUserData();
+
+    </script> -->
+</body>
+</html>
